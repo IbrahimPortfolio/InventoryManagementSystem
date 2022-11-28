@@ -1,0 +1,49 @@
+﻿Using Clean Architecture
+
+
+Use Case
+is the logic that is requried for the UI
+
+Plug-in - is part of Devices
+
+
+Logic
+
+As a user I can 
+** view intentories
+** search by name
+
+Main Scenario - 
+
+- Pre Conditions
+1. The user is on the intentories page.
+
+
+- Post Conditions
+2. The user sees the inventories that meet the search condtion.
+
+- Detailed Steps
+1. The user enteres few letters in the search box
+2. The user click on View Button.
+
+Alternative Scenario A
+- Pre Conditions
+1. User sees same as above
+
+- Post Conditions
+2a. The user sees all the inventories.
+
+- Detailed Steps
+1a. The user leaves search box empty
+2a. The user click on View Button.
+
+Alternative Scenario B
+- Pre Conditions
+1. Same as Scenario A
+
+- Post Conditions
+2b. Same as Scenario A
+
+- Detailed Steps
+1b. Same as Scenario A
+2b. The user hits the "enter" key
